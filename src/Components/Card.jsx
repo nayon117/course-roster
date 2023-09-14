@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-const Card = ({ course }) => {
+const Card = ({ course,handleSelectedCourse }) => {
   return (
     <div>
-      <div className="card bg-base-100 shadow-xl">
+      <div className="card w-72 bg-base-100 shadow-xl">
         <figure>
           <img
             src={course.img}
@@ -18,7 +18,7 @@ const Card = ({ course }) => {
                       <p>Credit: {course.credit }hr</p>
                   </div>
           <div className="card-actions  ">
-            <button className="btn btn-block bg-[#2F80ED] text-white font-semibold">Select</button>
+            <button onClick={()=>handleSelectedCourse(course)} className="btn btn-block bg-[#2F80ED] text-white font-semibold">Select</button>
           </div>
         </div>
       </div>
@@ -28,6 +28,7 @@ const Card = ({ course }) => {
 
 Card.propTypes = {
   course: PropTypes.array.isRequired,
+  handleSelectedCourse:PropTypes.func
 };
 
 export default Card;
