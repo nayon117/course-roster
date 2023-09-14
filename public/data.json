@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/j8ZsnYt/Rectangle-2-2.png",
+      "title": "Introduction to C Programming",
+      "credit": 1,
+      "price": 15000,
+      "details": "An introductory course to C programming, covering basic concepts, hands-on coding practice, and real-world applications."
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/K7GkQj2/Rectangle-2-3.png",
+      "title": "Introduction to Algorithms",
+      "credit": 2,
+      "price": 25000,
+      "details": "Explore fundamental algorithms, data structures, practical implementation techniques, and algorithm analysis."
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/VJC76jV/Rectangle-2-4.png",
+      "title": "Introduction to C++ for DSA",
+      "credit": 10,
+      "price": 10000,
+      "details": "Learn C++ and its application in Data Structures and Algorithms (DSA) through coding exercises and problem-solving."
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/YyzxMFv/Rectangle-3.png",
+      "title": "Basic Data Structures",
+      "credit": 5,
+      "price": 35000,
+      "details": "Master essential data structures like stacks, queues, and graphs through practical problem-solving and coding projects."
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/TWVhS3H/Rectangle-2.png",
+      "title": "Introduction to OOP Python",
+      "credit": 5,
+      "price": 19000,
+      "details": "Explore Object-Oriented Programming (OOP) with Python, build practical applications, and understand design principles."
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/s9RpNcw/Rectangle-2-5.png",
+      "title": "Software Engineering",
+      "credit": 2,
+      "price": 23000,
+      "details": "Learn software development methodologies, design principles, testing practices, and collaborate on real software projects."
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/w6JVMW9/Rectangle-3-1.png",
+      "title": "AWS, Cloud Computing",
+      "credit": 5,
+      "price": 35000,
+      "details": "Delve into cloud computing using Amazon Web Services (AWS), deploy and manage applications, and explore cloud architecture."
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/PN9pcb2/Rectangle-2-1.png",
+      "title": "Database (MySQL)",
+      "credit": 5,
+      "price": 19000,
+      "details": "Explore relational databases, SQL, database design, and work on hands-on database projects for practical experience."
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/8mMY0Gw/Rectangle-2-6.png",
+      "title": "Problem-Solving Part",
+      "credit": 2,
+      "price": 23000,
+      "details": "Enhance your problem-solving skills, develop algorithmic thinking, and tackle complex problems in various domains."
+    }
+  ]
+  
