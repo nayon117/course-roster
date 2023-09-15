@@ -7,7 +7,7 @@ import Cart from "./Cart";
 const Home = () => {
   const [courses, setCourses] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
-  const [remaining, setRemaining] = useState(0);
+  const [remaining, setRemaining] = useState(20);
   const [totalCredit, setTotalCredit] = useState(0);
 
   useEffect(() => {
