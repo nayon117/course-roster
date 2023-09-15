@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Card from "./Card";
 import Cart from "./Cart";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
@@ -20,14 +22,32 @@ const Home = () => {
     const isExist = selectedCourse.find((item) => item.id === course.id);
     let credit = course.credit;
     if (isExist) {
-      return alert("Already selected");
+      return toast.error('🦄 Already Selected!', {
+        position: "top-center",
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        });
     } else {
       selectedCourse.forEach((item) => {
         credit = credit + item.credit;
       });
       const totalRemaining = 20 - credit;
       if (credit > 20) {
-        return alert("not enough credit");
+        return toast.error('🦄 Credit Limit Exceeded!', {
+          position: "top-center",
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
       } else {
         setTotalCredit(credit)
         setRemaining(totalRemaining);
@@ -45,6 +65,7 @@ const Home = () => {
             key={course.id}
             course={course}
             handleSelectedCourse={handleSelectedCourse}
+            ToastContainer={ToastContainer}
           ></Card>
         ))}
       </div>

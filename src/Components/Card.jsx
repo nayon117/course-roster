@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
 import { BiDollar } from "react-icons/bi";
 import { BsBook } from "react-icons/bs";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Card = ({ course, handleSelectedCourse }) => {
+const Card = ({ course, handleSelectedCourse}) => {
   return (
     <div>
       <div className="card h-[400px] md:h-[450px] lg:h-[400px] bg-base-100 py-2 shadow-xl">
@@ -33,6 +35,7 @@ const Card = ({ course, handleSelectedCourse }) => {
             >
               Select
             </button>
+            <ToastContainer />
           </div>
         </div>
       </div>
@@ -43,6 +46,7 @@ const Card = ({ course, handleSelectedCourse }) => {
 Card.propTypes = {
   course: PropTypes.array.isRequired,
   handleSelectedCourse: PropTypes.func,
+  
 };
 
 export default Card;
