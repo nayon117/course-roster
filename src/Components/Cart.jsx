@@ -21,7 +21,7 @@ const Cart = ({ selectedCourse, remaining, totalCredit, totalPrice}) => {
         
       <div className="pt-12 font-bold">
         <h2 className="border-t-2 py-4 ">Total Credit Hour : {totalCredit} </h2>
-        <h2 >Total Price: {totalPrice} USD</h2>
+        <h2 className="border-t-2 py-4" >Total Price: {totalPrice} USD</h2>
       </div>
     </div>
   );

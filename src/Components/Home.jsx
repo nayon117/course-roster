@@ -42,7 +42,7 @@ const Home = () => {
       if (credit > 20) {
         return toast.error("🦄 Credit Limit Exceeded! you can't add more than 20 credits", {
           position: "top-center",
-          autoClose: 1000,
+          autoClose: 2000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
