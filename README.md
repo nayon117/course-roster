@@ -46,12 +46,18 @@ In this course registration site, I've effectively managed the application's sta
 
 ### `totalCredit` State
 
-- **Description**: The `totalCredit` state variable calculates and stores the total number of credit hours associated with the courses that a user has selected. It updates dynamically as courses are added or removed.
+- **Description**: The `totalCredit` state variable calculates and stores the total number of credit hours associated with the courses that a user has selected. It updates dynamically as courses are added .
+
+
+### `totalPrice` State
+
+- **Description**: The `totalPrice` state variable calculates and stores the total price associated with the courses that a user has selected. It updates dynamically as courses are added .
 
 By effectively managing these state variables, I ensure that users can:
 - Select courses from the available list.
 - Keep track of the remaining credit hours.
 - View the total credit hours of their selected courses in real-time.
+- view the total price of their selected courses in real time.
 ## Tech Stack
 
 **Used for this project:** React, DaisyUi, TailwindCSS

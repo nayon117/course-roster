@@ -9,7 +9,9 @@ const Card = ({ course, handleSelectedCourse}) => {
     <div>
       <div className="card h-[450px] md:h-[470px] lg:h-[450px] bg-base-100 py-2 shadow-xl">
         
-          <img className="h-48 md:h-40 lg:h-44 p-2" src={course.img} alt="course image" />
+        <div className="h-48 md:h-40 lg:h-44 p-2 mx-auto">
+        <img  src={course.img} alt="course image" /> 
+          </div>
        
         <div className="px-3 py-4  space-y-2">
           <h2 className="card-title ">{course.title}</h2>
