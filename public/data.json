@@ -5,7 +5,7 @@
     "title": "Introduction to C Programming",
     "credit": 1,
     "price": 15000,
-    "details": "An intro to C programming, covering basic concepts, coding practice, and applications."
+    "details": "Explore C , covering basic concepts, coding practice, and applications."
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "Introduction to Algorithms",
     "credit": 2,
     "price": 25000,
-    "details": "In this couse you will Explore algorithms, data structures, implementation techniques, and analysis."
+    "details": "Explore algorithms, data structures, implementation techniques, and analysis."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "Introduction to C++ for DSA",
     "credit": 10,
     "price": 10000,
-    "details": "Learn C++ and its application in Data Structures and Algorithms (DSA) through coding exercises."
+    "details": "This course is about to Learn C++ and its application in DSA through coding exercises."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "title": "Basic Data Structures",
     "credit": 5,
     "price": 35000,
-    "details": "Master data structures like stacks, queues, and graphs through problem-solving and coding projects."
+    "details": "In this course you will explore Master data structures like stacks,and graphs through problem-solving and projects."
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "title": "Introduction to OOP Python",
     "credit": 5,
     "price": 19000,
-    "details": "Explore Object-Oriented Programming (OOP) with Python, build applications, and understand design principles."
+    "details": "Explore Object-Oriented Programming with Python, build applications, and design principles."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "title": "Software Engineering",
     "credit": 2,
     "price": 23000,
-    "details": "Learn software development methodologies, design principles, testing practices and make real projects."
+    "details": "Learn software development, design principles, testing practices and make real projects."
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "title": "Database (MySQL)",
     "credit": 5,
     "price": 19000,
-    "details": "In this course you will Explore relational databases, SQL, database design, and work on hands-on projects for practical experience."
+    "details": "In this course you will Explore relational databases, SQL, database design, and work on  projects for practical experience."
   },
   {
     "id": 9,

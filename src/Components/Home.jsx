@@ -57,9 +57,9 @@ const Home = () => {
   };
 
   return (
-    <div className="flex gap-4 flex-col md:flex-row ">
+    <div className="flex gap-8 md:gap-4 flex-col md:flex-row ">
       {/* card section  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-3">
         {courses.map((course) => (
           <Card
             key={course.id}

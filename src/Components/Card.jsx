@@ -7,22 +7,22 @@ import 'react-toastify/dist/ReactToastify.css';
 const Card = ({ course, handleSelectedCourse}) => {
   return (
     <div>
-      <div className="card h-[400px] md:h-[450px] lg:h-[400px] bg-base-100 py-2 shadow-xl">
-        <figure>
-          <img className="" src={course.img} alt="course image" />
-        </figure>
+      <div className="card h-[450px] md:h-[470px] lg:h-[450px] bg-base-100 py-2 shadow-xl">
+        
+          <img className="h-48 md:h-40 lg:h-44 p-2" src={course.img} alt="course image" />
+       
         <div className="px-3 py-4  space-y-2">
           <h2 className="card-title ">{course.title}</h2>
           <p>{course.details}</p>
           <div className="flex justify-between font-medium">
             <div className="flex items-center">
-              <p>
+              <p >
                 <BiDollar></BiDollar>
               </p> 
               <p>Price:{course.price}</p>
             </div>
             <div className="flex items-center">
-              <p className="mr-1">
+              <p className="mr-1 md:mr-0 lg:mr-1">
               <BsBook></BsBook>
               </p> 
                 Credit:{course.credit}hr
